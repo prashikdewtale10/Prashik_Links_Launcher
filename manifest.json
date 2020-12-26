@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2 ,
+    "name":"Prashik Launcher",
+    "description":" Quick Launcher for accessing social media. ",
+    "version":"1.0.0",
+    "icons" : {
+                "128" :"PRAS_128.png"
+              },
+    "browser_action":{
+        "default_icon":"PRAS.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+
+
+}
